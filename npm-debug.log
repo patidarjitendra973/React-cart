@@ -1,0 +1,449 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--g' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData .
+8 silly fetchDirectoryPackageData .
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly install loadAllDepsIntoIdealTree
+21 silly resolveWithNewModule flux-pricing@0.0.1 checking installable status
+22 silly cache add args [ '.', null ]
+23 verbose cache add spec .
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '.',
+24 silly cache add   scope: null,
+24 silly cache add   escapedName: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '.',
+24 silly cache add   spec: 'C:\\Users\\amitmishra\\Desktop\\react\\react-flux-cart',
+24 silly cache add   type: 'directory' }
+25 verbose addLocalDirectory C:\Users\amitmishra\AppData\Roaming\npm-cache\flux-pricing\0.0.1\package.tgz not in flight; packing
+26 verbose correctMkdir C:\Users\amitmishra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 info lifecycle flux-pricing@0.0.1~prepublish: flux-pricing@0.0.1
+28 silly lifecycle flux-pricing@0.0.1~prepublish: no script for prepublish, continuing
+29 verbose tar pack [ 'C:\\Users\\amitmishra\\AppData\\Roaming\\npm-cache\\flux-pricing\\0.0.1\\package.tgz',
+29 verbose tar pack   'C:\\Users\\amitmishra\\Desktop\\react\\react-flux-cart' ]
+30 verbose tarball C:\Users\amitmishra\AppData\Roaming\npm-cache\flux-pricing\0.0.1\package.tgz
+31 verbose folder C:\Users\amitmishra\Desktop\react\react-flux-cart
+32 verbose addLocalTarball adding from inside cache C:\Users\amitmishra\AppData\Roaming\npm-cache\flux-pricing\0.0.1\package.tgz
+33 verbose correctMkdir C:\Users\amitmishra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+34 silly cache afterAdd flux-pricing@0.0.1
+35 verbose afterAdd C:\Users\amitmishra\AppData\Roaming\npm-cache\flux-pricing\0.0.1\package\package.json not in flight; writing
+36 verbose correctMkdir C:\Users\amitmishra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 verbose afterAdd C:\Users\amitmishra\AppData\Roaming\npm-cache\flux-pricing\0.0.1\package\package.json written
+38 silly fetchNamedPackageData flux
+39 silly mapToRegistry name flux
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'flux',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'flux',
+42 silly mapToRegistry   name: 'flux',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/flux
+44 silly fetchNamedPackageData keymirror
+45 silly mapToRegistry name keymirror
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'keymirror',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'keymirror',
+48 silly mapToRegistry   name: 'keymirror',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/keymirror
+50 silly fetchNamedPackageData react
+51 silly mapToRegistry name react
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry data Result {
+54 silly mapToRegistry   raw: 'react',
+54 silly mapToRegistry   scope: null,
+54 silly mapToRegistry   escapedName: 'react',
+54 silly mapToRegistry   name: 'react',
+54 silly mapToRegistry   rawSpec: '',
+54 silly mapToRegistry   spec: 'latest',
+54 silly mapToRegistry   type: 'tag' }
+55 silly mapToRegistry uri https://registry.npmjs.org/react
+56 silly fetchNamedPackageData react-dom
+57 silly mapToRegistry name react-dom
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'react-dom',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   escapedName: 'react-dom',
+60 silly mapToRegistry   name: 'react-dom',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag' }
+61 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+62 silly fetchNamedPackageData uglifyjs
+63 silly mapToRegistry name uglifyjs
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'uglifyjs',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   escapedName: 'uglifyjs',
+66 silly mapToRegistry   name: 'uglifyjs',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/uglifyjs
+68 silly fetchNamedPackageData underscore
+69 silly mapToRegistry name underscore
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'underscore',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   escapedName: 'underscore',
+72 silly mapToRegistry   name: 'underscore',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/underscore
+74 verbose request uri https://registry.npmjs.org/flux
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 12:30:59 AM
+77 verbose request id 3ff9c23fa0c64408
+78 http request GET https://registry.npmjs.org/flux
+79 verbose request uri https://registry.npmjs.org/keymirror
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 12:30:59 AM
+82 http request GET https://registry.npmjs.org/keymirror
+83 verbose request uri https://registry.npmjs.org/react
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 12:30:59 AM
+86 http request GET https://registry.npmjs.org/react
+87 verbose request uri https://registry.npmjs.org/react-dom
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 12:30:59 AM
+90 http request GET https://registry.npmjs.org/react-dom
+91 verbose request uri https://registry.npmjs.org/uglifyjs
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 12:30:59 AM
+94 http request GET https://registry.npmjs.org/uglifyjs
+95 verbose request uri https://registry.npmjs.org/underscore
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 12:31:00 AM
+98 verbose etag W/"588200d2-abb9"
+99 verbose lastModified Fri, 20 Jan 2017 12:21:38 GMT
+100 http request GET https://registry.npmjs.org/underscore
+101 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+102 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+103 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+104 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+105 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+106 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+107 info attempt registry request try #2 at 12:31:11 AM
+108 http request GET https://registry.npmjs.org/flux
+109 info attempt registry request try #2 at 12:31:11 AM
+110 http request GET https://registry.npmjs.org/keymirror
+111 info attempt registry request try #2 at 12:31:11 AM
+112 http request GET https://registry.npmjs.org/uglifyjs
+113 info attempt registry request try #2 at 12:31:11 AM
+114 http request GET https://registry.npmjs.org/react-dom
+115 info attempt registry request try #2 at 12:31:11 AM
+116 http request GET https://registry.npmjs.org/react
+117 info attempt registry request try #2 at 12:31:11 AM
+118 verbose etag W/"588200d2-abb9"
+119 verbose lastModified Fri, 20 Jan 2017 12:21:38 GMT
+120 http request GET https://registry.npmjs.org/underscore
+121 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+122 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+123 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+124 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+125 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+126 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+127 info attempt registry request try #3 at 12:32:12 AM
+128 http request GET https://registry.npmjs.org/uglifyjs
+129 info attempt registry request try #3 at 12:32:12 AM
+130 http request GET https://registry.npmjs.org/flux
+131 info attempt registry request try #3 at 12:32:12 AM
+132 http request GET https://registry.npmjs.org/keymirror
+133 info attempt registry request try #3 at 12:32:12 AM
+134 http request GET https://registry.npmjs.org/react-dom
+135 info attempt registry request try #3 at 12:32:12 AM
+136 http request GET https://registry.npmjs.org/react
+137 info attempt registry request try #3 at 12:32:12 AM
+138 verbose etag W/"588200d2-abb9"
+139 verbose lastModified Fri, 20 Jan 2017 12:21:38 GMT
+140 http request GET https://registry.npmjs.org/underscore
+141 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+141 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+141 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+141 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+141 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+141 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+141 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+141 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+141 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+141 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+141 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+141 silly fetchPackageMetaData  error for uglifyjs@^2.4.10 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+141 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+141 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+141 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+141 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+141 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+141 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+141 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+141 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+141 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+141 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9) code: 'ECONNRESET' }
+142 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+142 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+142 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+142 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+142 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+142 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+142 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+142 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+142 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+142 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+142 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+142 silly fetchPackageMetaData  error for react-dom@^15.3.0 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+142 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+142 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+142 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+142 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+142 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+142 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+142 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+142 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+142 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+142 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9) code: 'ECONNRESET' }
+143 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+143 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+143 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+143 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+143 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+143 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+143 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+143 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+143 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+143 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+143 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+143 silly fetchPackageMetaData  error for flux@^2.0.0 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+143 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+143 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+143 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+143 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+143 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+143 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+143 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+143 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+143 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+143 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9) code: 'ECONNRESET' }
+144 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+144 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+144 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+144 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+144 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+144 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+144 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+144 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+144 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+144 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+144 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+144 silly fetchPackageMetaData  error for react@^15.3.0 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+144 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+144 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+144 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+144 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+144 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+144 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+144 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+144 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+144 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+144 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9) code: 'ECONNRESET' }
+145 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+145 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+145 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+145 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+145 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+145 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+145 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+145 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+145 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+145 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+145 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+145 silly fetchPackageMetaData  error for keymirror@^0.1.1 { Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+145 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+145 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+145 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+145 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+145 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+145 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+145 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+145 silly fetchPackageMetaData     at emitErrorNT (net.js:1278:8)
+145 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+145 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9) code: 'ECONNRESET' }
+146 silly get cb [ 304, undefined ]
+147 verbose etag https://registry.npmjs.org/underscore from cache
+148 verbose get saving underscore to C:\Users\amitmishra\AppData\Roaming\npm-cache\registry.npmjs.org\underscore\.cache.json
+149 verbose correctMkdir C:\Users\amitmishra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+150 silly resolveWithNewModule underscore@1.8.3 checking installable status
+151 silly cache add args [ 'underscore@^1.8.3', null ]
+152 verbose cache add spec underscore@^1.8.3
+153 silly cache add parsed spec Result {
+153 silly cache add   raw: 'underscore@^1.8.3',
+153 silly cache add   scope: null,
+153 silly cache add   escapedName: 'underscore',
+153 silly cache add   name: 'underscore',
+153 silly cache add   rawSpec: '^1.8.3',
+153 silly cache add   spec: '>=1.8.3 <2.0.0',
+153 silly cache add   type: 'range' }
+154 silly addNamed underscore@>=1.8.3 <2.0.0
+155 verbose addNamed ">=1.8.3 <2.0.0" is a valid semver range for underscore
+156 silly addNameRange { name: 'underscore', range: '>=1.8.3 <2.0.0', hasData: false }
+157 silly mapToRegistry name underscore
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry data Result {
+160 silly mapToRegistry   raw: 'underscore',
+160 silly mapToRegistry   scope: null,
+160 silly mapToRegistry   escapedName: 'underscore',
+160 silly mapToRegistry   name: 'underscore',
+160 silly mapToRegistry   rawSpec: '',
+160 silly mapToRegistry   spec: 'latest',
+160 silly mapToRegistry   type: 'tag' }
+161 silly mapToRegistry uri https://registry.npmjs.org/underscore
+162 verbose addNameRange registry:https://registry.npmjs.org/underscore not in flight; fetching
+163 verbose get https://registry.npmjs.org/underscore not expired, no request
+164 silly addNameRange number 2 { name: 'underscore', range: '>=1.8.3 <2.0.0', hasData: true }
+165 silly addNameRange versions [ 'underscore',
+165 silly addNameRange   [ '1.0.3',
+165 silly addNameRange     '1.0.4',
+165 silly addNameRange     '1.1.0',
+165 silly addNameRange     '1.1.1',
+165 silly addNameRange     '1.1.2',
+165 silly addNameRange     '1.1.3',
+165 silly addNameRange     '1.1.4',
+165 silly addNameRange     '1.1.5',
+165 silly addNameRange     '1.1.6',
+165 silly addNameRange     '1.1.7',
+165 silly addNameRange     '1.2.0',
+165 silly addNameRange     '1.2.1',
+165 silly addNameRange     '1.2.2',
+165 silly addNameRange     '1.2.3',
+165 silly addNameRange     '1.2.4',
+165 silly addNameRange     '1.3.0',
+165 silly addNameRange     '1.3.1',
+165 silly addNameRange     '1.3.2',
+165 silly addNameRange     '1.3.3',
+165 silly addNameRange     '1.4.0',
+165 silly addNameRange     '1.4.1',
+165 silly addNameRange     '1.4.2',
+165 silly addNameRange     '1.4.3',
+165 silly addNameRange     '1.4.4',
+165 silly addNameRange     '1.5.0',
+165 silly addNameRange     '1.5.1',
+165 silly addNameRange     '1.5.2',
+165 silly addNameRange     '1.6.0',
+165 silly addNameRange     '1.7.0',
+165 silly addNameRange     '1.8.0',
+165 silly addNameRange     '1.8.1',
+165 silly addNameRange     '1.8.2',
+165 silly addNameRange     '1.8.3' ] ]
+166 silly addNamed underscore@1.8.3
+167 verbose addNamed "1.8.3" is a plain semver version for underscore
+168 silly mapToRegistry name underscore
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry data Result {
+171 silly mapToRegistry   raw: 'underscore',
+171 silly mapToRegistry   scope: null,
+171 silly mapToRegistry   escapedName: 'underscore',
+171 silly mapToRegistry   name: 'underscore',
+171 silly mapToRegistry   rawSpec: '',
+171 silly mapToRegistry   spec: 'latest',
+171 silly mapToRegistry   type: 'tag' }
+172 silly mapToRegistry uri https://registry.npmjs.org/underscore
+173 verbose addRemoteTarball https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz not in flight; adding
+174 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz',
+174 verbose addRemoteTarball   '4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022' ]
+175 info retry fetch attempt 1 at 12:32:13 AM
+176 info attempt registry request try #1 at 12:32:13 AM
+177 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+178 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+179 info attempt registry request try #2 at 12:32:24 AM
+180 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+181 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+182 info attempt registry request try #3 at 12:33:25 AM
+183 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+184 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+185 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+186 info retry fetch attempt 2 at 12:33:36 AM
+187 info attempt registry request try #1 at 12:33:36 AM
+188 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+189 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+190 info attempt registry request try #2 at 12:33:47 AM
+191 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+192 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+193 info attempt registry request try #3 at 12:34:48 AM
+194 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+195 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+196 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+197 info retry fetch attempt 3 at 12:35:49 AM
+198 info attempt registry request try #1 at 12:35:49 AM
+199 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+200 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+201 info attempt registry request try #2 at 12:36:00 AM
+202 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+203 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+204 info attempt registry request try #3 at 12:37:01 AM
+205 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+206 error fetch failed https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
+207 silly rollbackFailedOptional Starting
+208 silly rollbackFailedOptional Finishing
+209 silly runTopLevelLifecycles Finishing
+210 silly install printInstalled
+211 verbose stack Error: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+211 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+211 verbose stack     at ClientRequest.g (events.js:291:16)
+211 verbose stack     at emitOne (events.js:96:13)
+211 verbose stack     at ClientRequest.emit (events.js:188:7)
+211 verbose stack     at Socket.socketErrorListener (_http_client.js:310:9)
+211 verbose stack     at emitOne (events.js:96:13)
+211 verbose stack     at Socket.emit (events.js:188:7)
+211 verbose stack     at emitErrorNT (net.js:1278:8)
+211 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+211 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+212 verbose cwd C:\Users\amitmishra\Desktop\react\react-flux-cart
+213 error Windows_NT 6.1.7601
+214 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--g"
+215 error node v6.9.2
+216 error npm  v3.10.9
+217 error code ECONNRESET
+218 error network tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+219 error network This is most likely not a problem with npm itself
+219 error network and is related to network connectivity.
+219 error network In most cases you are behind a proxy or have bad network settings.
+219 error network
+219 error network If you are behind a proxy, please make sure that the
+219 error network 'proxy' config is set properly.  See: 'npm help config'
+220 verbose exit [ 1, true ]
