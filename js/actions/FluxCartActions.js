@@ -12,6 +12,7 @@ var FluxCartActions = {
     })
   },
 
+  // local code change 
   // Set currently selected product variation
   selectProduct: function (index) {
     AppDispatcher.handleAction({
